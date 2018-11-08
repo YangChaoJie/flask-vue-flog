@@ -1,11 +1,16 @@
-from flask import Flask
+from flask import Flask, render_template
+import os
+FRONTEND_FOLDER = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'frontend')
+app = Flask(__name__, static_folder=os.path.join(FRONTEND_FOLDER, 'dist'),
+        template_folder=FRONTEND_FOLDER)
 
-app = Flask(__name__)
 
-
+# @app.route('/')
+# def hello_world():
+#     return 'Hello World!'
 @app.route('/')
-def hello_world():
-    return 'Hello World!'
+def index():
+    return render_template('index.html')
 
 
 if __name__ == '__main__':
