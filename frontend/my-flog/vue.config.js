@@ -1,13 +1,12 @@
+const path = require('path')
 module.exports = {
-    baseUrl: process.env.NODE_ENV === 'production'
-        ? '/'
-        : '/',
+    baseUrl: '',
 
-    outputDir: 'dist',
+    outputDir: path.resolve(__dirname, '../../dist'),
     
-    indexPath: '../../dist/index.html',
+    indexPath: 'index.html',
 
-    assetsDir: process.env.NODE_ENV === 'production' ? '../../dist/static' : 'static',
+    assetsDir: './static',
 
     filenameHashing: true,
 
