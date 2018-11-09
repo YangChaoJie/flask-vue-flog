@@ -1,11 +1,13 @@
 module.exports = {
     baseUrl: process.env.NODE_ENV === 'production'
-        ? '//your_url'
+        ? '/'
         : '/',
 
     outputDir: 'dist',
+    
+    indexPath: '../../dist/index.html',
 
-    assetsDir: 'static',
+    assetsDir: process.env.NODE_ENV === 'production' ? '../../dist/static' : 'static',
 
     filenameHashing: true,
 
