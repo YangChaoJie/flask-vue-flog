@@ -1,0 +1,43 @@
+// @import 'var';
+// @import 'transition';
+// @import 'modal';
+// @import 'mixin';
+
+// a {
+//   color: $--color-link;
+//   cursor: pointer;
+// }
+
+// // 滚动条样式
+// ::-webkit-scrollbar {
+//   width: 12px;
+//   background: none;
+// }
+
+// ::-webkit-scrollbar-track {
+//   background: none;
+// }
+
+// ::-webkit-scrollbar-thumb {
+//   border-radius: 100px;
+//   border: 2px solid #fff;
+//   background-color: $--color-border-light-1;
+// }
+
+// ::-webkit-scrollbar-thumb:hover {
+//   background-color: $--color-border;
+// }
+
+// // 自定义图标
+// .icon-vip {
+//   background: $--color-minor;
+//   @include textIcon()
+// }
+// .icon-cu {
+//   background: $--color-primary;
+//   @include textIcon()
+// }
+// .icon-new {
+//   background: $--color-success;
+//   @include textIcon()
+// }

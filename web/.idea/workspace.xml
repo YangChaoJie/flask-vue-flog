@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58cf91d9-a8c6-4811-95a0-61194c1bf06c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../frontend/dist/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../frontend/dist/static/css/index.6af8ca07.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../frontend/dist/static/img/logo.82b9c7a5.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../frontend/dist/static/js/index.029b9b8e.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../frontend/my-flog/vue.config.js" afterPath="$PROJECT_DIR$/../frontend/my-flog/vue.config.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/venv/bin/python" afterPath="$PROJECT_DIR$/venv/bin/python" />
-      <change beforePath="$PROJECT_DIR$/web.py" afterPath="$PROJECT_DIR$/web.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,8 +20,8 @@
       <file leaf-file-name="web.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="34" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+            <state relative-caret-position="45">
+              <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -71,8 +65,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="620" />
-    <option name="y" value="158" />
+    <option name="x" value="105" />
+    <option name="y" value="100" />
     <option name="width" value="1228" />
     <option name="height" value="777" />
   </component>
@@ -205,12 +199,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="620" y="158" width="1228" height="777" extended-state="0" />
+    <frame x="105" y="100" width="1228" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36656892" sideWeight="0.50337267" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36656892" sideWeight="0.49662733" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36656892" sideWeight="0.49662733" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.271261" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -281,8 +275,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="34" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        <state relative-caret-position="45">
+          <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
