@@ -16,7 +16,7 @@ export default {
   },
   data() {
     return {
-      imgPath: require('./assets/logo.png')
+      imgPath: require('./assets/images/logo.png')
     }
   }
 }
