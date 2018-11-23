@@ -1,5 +1,5 @@
 <template>
-    <div class="programme">
+    <div class="note">
         <page-body></page-body>
     </div>
 </template>
@@ -11,11 +11,10 @@ export default {
   }
 }
 </script>
-<style lang="scss" scoped>
-.programme {
+<style lang="scss">
+.note {
   .el-container {
-    background-color: rosybrown;
+    background-color: aqua;
   }
 }
 </style>
-

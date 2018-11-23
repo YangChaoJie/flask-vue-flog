@@ -1,9 +1,12 @@
 const path = require('path')
+function resolve (dir) {
+    return path.join(__dirname, dir)
+}
 module.exports = {
     baseUrl: '',
 
     outputDir: path.resolve(__dirname, '../../dist'),
-    
+
     indexPath: 'index.html',
 
     assetsDir: './static',
@@ -62,13 +65,21 @@ module.exports = {
             .splitChunks({
                 cacheGroups: {}
             });
-    
+
         // 'src/lib' 目录下为外部库文件，不参与 eslint 检测
         config.module
             .rule('eslint')
             .exclude
             .add('/Users/maybexia/Downloads/FE/community_built-in/src/lib')
             .end()
+        // 配置webpack目录别名alias    
+        config.resolve.alias
+            .set('@$', resolve('src'))
+            .set('assets', resolve('src/assets'))
+            .set('components', resolve('src/components'))
+            .set('layout', resolve('src/layout'))
+            .set('base', resolve('src/base'))
+            .set('static', resolve('src/static'))
     },
 
     // 配置高于chainWebpack中关于 css loader 的配置
