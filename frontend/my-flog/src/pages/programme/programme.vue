@@ -1,6 +1,6 @@
 <template>
     <div class="programme">
-        <page-body></page-body>
+        <page-body :leftShow="false"></page-body>
     </div>
 </template>
 <script>

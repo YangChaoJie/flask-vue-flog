@@ -9,7 +9,7 @@
         </div>
         <el-container class="content">
             <el-aside width="30%">
-                <el-card class="box-card">
+                <el-card class="box-card" v-if="leftShow">
                     <div slot="header" class="clearfix">
                         <span>标签</span>
                     </div>
@@ -17,7 +17,7 @@
                         {{ o }}
                     </el-button>
                 </el-card>
-                <el-card class="box-card" style="margin-top: 20px;">
+                <el-card class="box-card" style="margin-top: 20px;" v-if="leftShow">
                     <div slot="header" class="clearfix">
                         <span>链接</span>
                     </div>
@@ -42,7 +42,13 @@
 <script>
 export default {
   props: {
-    rightShow: Boolean,
+    /**
+     * 控制 左边 标签栏显示
+     */
+    leftShow: {
+      type: Boolean,
+      default: true
+    },
     imageArray: []
   },
   data() {

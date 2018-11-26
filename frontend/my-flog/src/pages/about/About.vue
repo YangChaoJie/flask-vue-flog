@@ -1,6 +1,6 @@
 <template>
     <div class="about">
-        <page-body>
+        <page-body :leftShow="false">
             <div class="container" slot="page"></div>
         </page-body>
     </div>

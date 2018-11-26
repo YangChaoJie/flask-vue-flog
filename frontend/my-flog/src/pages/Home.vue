@@ -89,6 +89,8 @@ export default {
   }
   .el-header {
     z-index: 10;
+    position: fixed;
+    width: 100%;
     background-color: rgba(84, 92, 100, 0.3);
     height: 70px;
     line-height: 70px;
