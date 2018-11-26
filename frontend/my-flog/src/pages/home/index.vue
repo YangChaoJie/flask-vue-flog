@@ -1,6 +1,10 @@
 <template>
     <div class="home">
-        <page-body></page-body>
+        <page-body>
+           <div class="container" slot="page">
+             <i class="iconfont icon-biaoqian"></i>
+           </div>
+        </page-body>
     </div>
 </template>
 <script>
