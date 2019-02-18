@@ -1,27 +1,61 @@
 <template>
   <div class="page-body">
     <div class="scroller">
-      <el-carousel :interval="5000" arrow="always" height="500px" :autoplay="false">
-        <el-carousel-item v-for="item in imgArray" :key="item">
+      <el-carousel
+        :interval="5000"
+        arrow="always"
+        height="500px"
+        :autoplay="false"
+      >
+        <el-carousel-item
+          v-for="item in imgArray"
+          :key="item"
+        >
           <img :src=item />
         </el-carousel-item>
       </el-carousel>
     </div>
     <el-container class="content">
       <el-aside width="30%">
-        <el-card class="box-card" v-if="leftShow">
-          <div slot="header" class="clearfix">
-            <i class="iconfont icon-biaoqian" style="font-size: 20px;"></i>
+        <el-card
+          class="box-card"
+          v-if="leftShow"
+        >
+          <div
+            slot="header"
+            class="clearfix"
+          >
+            <i
+              class="iconfont icon-biaoqian"
+              style="font-size: 20px;"
+            ></i>
             <span> 标签</span>
           </div>
-          <el-button type="primary" size="small" :style="randomRgb()" v-for="o in buttonItems" :key="o" class="text item">
+          <el-button
+            type="primary"
+            size="small"
+            :style="randomRgb()"
+            v-for="o in buttonItems"
+            :key="o"
+            class="text item"
+          >
             {{ o }}
           </el-button>
         </el-card>
-        <el-card class="box-card" style="margin-top: 20px;" v-if="leftShow">
-          <div slot="header" class="clearfix">
-            <i class="iconfont icon-lianjie" style="font-size: 20px;"></i>
-            <span>    链接</span>
+        <el-card
+          class="box-card"
+          style="margin-top: 20px;"
+          v-if="leftShow"
+        >
+          <div
+            slot="header"
+            class="clearfix"
+          >
+            <i
+              class="iconfont icon-lianjie"
+              style="font-size: 20px;"
+            ></i>
+            <span> 链接</span>
           </div>
           <ul>
             <li>github</li>
@@ -30,7 +64,10 @@
         </el-card>
       </el-aside>
       <el-main class="main-content">
-        <slot name="page" style="width: 100%; height: 100%;"></slot>
+        <slot
+          name="page"
+          style="width: 100%; height: 100%;"
+        ></slot>
       </el-main>
       <el-aside width="5%"></el-aside>
     </el-container>
@@ -77,7 +114,7 @@ export default {
     handleSelect(key, keyPath) {
       console.log(key, keyPath)
     },
-    randomRgb: function() {
+    randomRgb: function () {
       var R = Math.floor(Math.random() * 255)
       var G = Math.floor(Math.random() * 255)
       var B = Math.floor(Math.random() * 255)
