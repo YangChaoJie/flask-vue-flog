@@ -34,10 +34,13 @@ function genSidebarConfig (title) {
       collapsable: false,
       children: [
         '',
-        'getting-started',
-        'customize',
-        'advanced',
-        'autoTest'
+        'mac_配置终端颜色和主题',
+        'iOS如何获取崩溃日志',
+        'ios_项目开发规范',
+        'autoTest',
+        'swift_里面的函数',
+        'ios_集成支付宝swift',
+        'ios_微信支付_---swift版'
       ]
     }
   ]

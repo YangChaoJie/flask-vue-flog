@@ -8,7 +8,7 @@
 >  3. 自动化测试的 定义 ： 自动化测试就是写一些测试代码，用代码代替人工去完成模块和业务的测试。
 
 
-测试金子塔如下 ： <img src="./images/329784-ff379d7a7a202665.png" width = "300" height = "200" alt="图片名称" align=center />
+测试金子塔如下 ： <img src="../images/329784-ff379d7a7a202665.png" width = "300" height = "200" alt="图片名称" align=center />
 
 自动化测试的 优点： 
 
@@ -30,7 +30,7 @@
 
  [具体内容查看此链接](http://tmq.qq.com/2016/09/mobile-app-test-automation-framework/)
 
- <img src="./images//1054552-c48679f96e8c1527.jpg" width = "500" height = "200" alt="图片名称" align=center />
+ <img src="../images//1054552-c48679f96e8c1527.jpg" width = "500" height = "200" alt="图片名称" align=center />
  
 ## 2. Appium 框架的 使用
 * 原理
@@ -38,7 +38,7 @@
   1.  Appiums是由Nodejs编写的，集成了现有优秀框架，以Selenium WebDriver的协议统一起来，
 遵循RESTful设计风格web 服务器，它接受客户端的连接，接收客户端的命令，在手机设备上执行命令，然后通过HTTP的响应收集命令执行的结果。
 
-<img src="./images/iphone.png" width = "200" height = "400" alt="图片名称" align=center />
+<img src="../images/iphone.png" width = "200" height = "400" alt="图片名称" align=center />
 
 简单 解释 为 对于App来说就是一个Server，基于 WebDriver JSON wire protocol 对实际的UI操作库进行了封装，并且暴露出RESTFUL的接口。然后测试代码通过HTTP请求的方式，来进行实际的测试。
 
@@ -55,7 +55,7 @@ Appium iOS比较慢的原因：
 
 *   WebDriverAgent
 
-<img src="./images/01f1f5fa3e36f4ce4c1b4af186b76bfe.png" width = "600" height = "200" alt="图片名称" align=center />
+<img src="../images/01f1f5fa3e36f4ce4c1b4af186b76bfe.png" width = "600" height = "200" alt="图片名称" align=center />
 
 
 
