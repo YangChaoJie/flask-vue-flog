@@ -37,6 +37,7 @@ function genSidebarConfig (title) {
         'getting-started',
         'customize',
         'advanced',
+        'autoTest'
       ]
     }
   ]
