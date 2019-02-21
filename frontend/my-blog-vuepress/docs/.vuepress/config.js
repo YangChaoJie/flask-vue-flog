@@ -13,7 +13,7 @@ module.exports = {
       { text: "GitHub", link: "https://github.com/YangChaoJie" }
     ],
     sidebar: {
-      '/guide/': genSidebarConfig('Guide')
+      '/guide/': genSidebarConfig('iOS')
     },
     lastUpdated: 'Last Updated'
   },
@@ -27,20 +27,22 @@ module.exports = {
   }
 };
 
-function genSidebarConfig (title) {
+function genSidebarConfig(title) {
   return [
     {
       title,
       collapsable: false,
       children: [
         '',
-        'mac_配置终端颜色和主题',
-        'iOS如何获取崩溃日志',
-        'ios_项目开发规范',
+        'mac',
         'autoTest',
-        'swift_里面的函数',
-        'ios_集成支付宝swift',
-        'ios_微信支付_---swift版'
+        'iOS_1',
+        'iOS_2',
+        'iOS_3',
+        'iOS_4',
+        'iOS_5',
+        'iOS_6',
+        'iOS_7',
       ]
     }
   ]
