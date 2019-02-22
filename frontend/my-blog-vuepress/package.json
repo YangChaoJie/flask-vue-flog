@@ -1,23 +1,27 @@
 {
-  "name": "vuepress-homepage",
-  "version": "0.0.1",
-  "description": "Generate your homepage with VuePress",
-  "author": "Fing <mtobeiyf@163.com>",
-  "repository": "https://github.com/mtobeiyf/vuepress-homepage.git",
+  "name": "template",
+  "version": "1.0.0",
+  "description": "template",
   "scripts": {
-    "clean": "rimraf dist/*",
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
     "deploy": "bash deploy.sh"
   },
-  "license": "MIT",
-  "devDependencies": {
-    "@vuepress/plugin-active-header-links": "^1.0.0-alpha.0",
-    "vuepress": "^1.0.0-alpha.39"
-  },
+  "keywords": [
+    "vuepress",
+    "theme",
+    "material design"
+  ],
   "dependencies": {
-    "markdown-it": "^8.4.1",
-    "markdown-it-emoji": "^1.4.0",
-    "markdown-it-katex": "^2.0.3"
+    "element-ui": "^2.5.4",
+    "vssue": "^0.7.1",
+    "vuepress-theme-indigo-material": "^1.0.1"
+  },
+  "devDependencies": {
+    "vuepress": "^1.0.0-alpha.39",
+    "babel-plugin-component": "^1.1.1",
+    "moment": "^2.24.0",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0"
   }
 }
